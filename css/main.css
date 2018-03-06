@@ -1,0 +1,33 @@
+.icon-sprite, .icon-bed, .icon-blind, .icon-bullhorn, .icon-motorcycle {
+  background-image: url('../img/icon-sf6bae0058a.png');
+  background-repeat: no-repeat; }
+
+.icon-bed {
+  background-position: -256px 0; }
+  .icon-bed:hover, .icon-bed.bed-hover {
+    background-position: 0 0; }
+
+.icon-blind {
+  background-position: -768px 0; }
+  .icon-blind:hover, .icon-blind.blind-hover {
+    background-position: -512px 0; }
+
+.icon-bullhorn {
+  background-position: -1280px 0; }
+  .icon-bullhorn:hover, .icon-bullhorn.bullhorn-hover {
+    background-position: -1024px 0; }
+
+.icon-motorcycle {
+  background-position: -1792px 0; }
+  .icon-motorcycle:hover, .icon-motorcycle.motorcycle-hover {
+    background-position: -1536px 0; }
+
+.icon-animation {
+  width: 256px;
+  height: 256px;
+  background: url("../img/icon-sf6bae0058a.png") left center;
+  animation: play 1s steps(8) infinite; }
+
+@keyframes play {
+  100% {
+    background-position: -2048px; } }
